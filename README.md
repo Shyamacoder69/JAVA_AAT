@@ -1,4 +1,3 @@
-# JAVA_AAT
 # Game Management System
 
 ## Aim
@@ -75,10 +74,11 @@ This is the driver class of the application. It shows the menu, handles user inp
 2. The main menu is displayed.
 3. The player is first registered by entering ID, name, age, and city.
 4. The player selects either Stone Paper Scissors or Guess the Number.
-5. The game result is decided by the system.
-6. Each played match is stored in `Vector<GameHistory>`.
-7. The user can view profile, match history, and statistics at any time.
-8. The application exits when the user chooses option 7.
+5. The chosen game runs in a loop until the player decides not to continue.
+6. The game result is decided by the system.
+7. Each played match is stored in `Vector<GameHistory>`.
+8. The user can view profile, match history, and statistics at any time.
+9. The application exits when the user chooses option 7.
 
 ## Project Synopsis
 The Game Management System is a console-based Java application developed for academic mini-project purposes. It helps manage a player's information and gameplay activities in a structured way. The project supports two games and stores all match records in memory. The program demonstrates the practical use of core Java concepts such as packages, interfaces, collections, enums, exception handling, arrays, vectors, generics, and object-oriented programming.
